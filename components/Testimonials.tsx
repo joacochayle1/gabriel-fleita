@@ -40,7 +40,9 @@ export default function Testimonials() {
                   controls
                   className="w-full h-full object-cover"
                   preload="metadata"
+                  playsInline
                 >
+                  <source src={testimonial.video} type="video/mp4" />
                   Tu navegador no soporta la reproducción de videos.
                 </video>
               </div>
