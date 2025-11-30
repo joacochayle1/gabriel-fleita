@@ -94,6 +94,3 @@ export default function RefundsPage() {
     </div>
   )
 }
-
-
-

@@ -22,6 +22,3 @@ describe('Header', () => {
     expect(screen.getByLabelText('Ir al inicio')).toBeInTheDocument()
   })
 })
-
-
-

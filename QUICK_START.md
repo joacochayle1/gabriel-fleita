@@ -97,6 +97,3 @@ Si tienes problemas con el deploy, revisa:
 
 - `DEPLOY.md` - Guía detallada de deploy
 - `README.md` - Documentación completa del proyecto
-
-
-

@@ -13,10 +13,10 @@ export default function CalendlyWidget({ url, height = '700px' }: CalendlyWidget
   const embedUrl = useMemo(() => {
     // Remover parámetros existentes (como ?month=2025-11)
     const baseUrl = url.split('?')[0]
-    
+
     // Obtener el dominio actual
     const domain = typeof window !== 'undefined' ? window.location.hostname : 'localhost'
-    
+
     // Construir la URL de embed
     return `${baseUrl}?embed_domain=${encodeURIComponent(domain)}&embed_type=Inline`
   }, [url])
@@ -34,5 +34,3 @@ export default function CalendlyWidget({ url, height = '700px' }: CalendlyWidget
     />
   )
 }
-
-

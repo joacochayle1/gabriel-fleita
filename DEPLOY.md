@@ -3,6 +3,7 @@
 ## ⚠️ Protección del Código
 
 **Importante**: El código ya está configurado con protecciones:
+
 - ✅ Source maps desactivados en producción
 - ✅ Código minificado y ofuscado
 - ✅ Headers de seguridad configurados
@@ -123,6 +124,3 @@ git push
 ```
 
 Vercel detectará automáticamente el push y hará un nuevo deploy.
-
-
-

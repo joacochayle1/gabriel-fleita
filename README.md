@@ -127,6 +127,3 @@ Actualiza los siguientes links en los componentes:
 ## 📄 Licencia
 
 Privado - Todos los derechos reservados
-
-
-
