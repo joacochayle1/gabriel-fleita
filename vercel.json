@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build:vercel",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
+  "installCommand": "git lfs install && npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
   "headers": [
