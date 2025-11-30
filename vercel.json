@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build:vercel",
+  "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "git lfs install && npm install",
   "framework": "nextjs",

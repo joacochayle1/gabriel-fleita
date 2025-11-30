@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:vercel": "git lfs pull || true && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
