@@ -1,63 +1,37 @@
-import { render, screen, waitFor } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
+import { render, screen } from '@testing-library/react'
 import ContactForm from '@/components/ContactForm'
 
 describe('ContactForm', () => {
-  it('renders form fields', () => {
+  it('renders contact section with title', () => {
     render(<ContactForm />)
 
-    expect(screen.getByLabelText(/nombre/i)).toBeInTheDocument()
-    expect(screen.getByLabelText(/email/i)).toBeInTheDocument()
-    expect(screen.getByLabelText(/mensaje/i)).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: /enviar mensaje/i })).toBeInTheDocument()
+    expect(screen.getByText('Contacto')).toBeInTheDocument()
+    expect(screen.getByText('Agenda una reunión')).toBeInTheDocument()
   })
 
-  it('validates required fields', async () => {
-    const user = userEvent.setup()
+  it('renders Calendly widget iframe', () => {
     render(<ContactForm />)
 
-    const submitButton = screen.getByRole('button', { name: /enviar mensaje/i })
-    await user.click(submitButton)
-
-    const nameInput = screen.getByLabelText(/nombre/i)
-    expect(nameInput).toBeRequired()
+    const iframe = screen.getByTitle('Calendario de reservas')
+    expect(iframe).toBeInTheDocument()
+    expect(iframe).toHaveAttribute('src', expect.stringContaining('calendly.com'))
   })
 
-  it('submits form with valid data', async () => {
-    const user = userEvent.setup()
+  it('has proper section structure', () => {
     render(<ContactForm />)
 
-    await user.type(screen.getByLabelText(/nombre/i), 'Juan Pérez')
-    await user.type(screen.getByLabelText(/email/i), 'juan@example.com')
-    await user.type(screen.getByLabelText(/mensaje/i), 'Quiero importar productos')
-
-    const submitButton = screen.getByRole('button', { name: /enviar mensaje/i })
-    await user.click(submitButton)
-
-    await waitFor(() => {
-      expect(screen.getByText(/mensaje enviado con éxito/i)).toBeInTheDocument()
-    })
+    const section = screen.getByRole('region', { name: 'Contacto' })
+    expect(section).toBeInTheDocument()
+    expect(section).toHaveAttribute('id', 'contacto')
   })
 
-  it('clears form after successful submission', async () => {
-    const user = userEvent.setup()
+  it('displays scheduling description', () => {
     render(<ContactForm />)
 
-    const nameInput = screen.getByLabelText(/nombre/i)
-    const emailInput = screen.getByLabelText(/email/i)
-    const messageInput = screen.getByLabelText(/mensaje/i)
-
-    await user.type(nameInput, 'Juan Pérez')
-    await user.type(emailInput, 'juan@example.com')
-    await user.type(messageInput, 'Quiero importar productos')
-
-    const submitButton = screen.getByRole('button', { name: /enviar mensaje/i })
-    await user.click(submitButton)
-
-    await waitFor(() => {
-      expect(nameInput).toHaveValue('')
-      expect(emailInput).toHaveValue('')
-      expect(messageInput).toHaveValue('')
-    })
+    expect(
+      screen.getByText(
+        /Seleccioná una fecha y hora que te funcione para una consulta personalizada sobre tu proyecto de importación/i
+      )
+    ).toBeInTheDocument()
   })
 })

@@ -5,7 +5,7 @@ describe('Header', () => {
   it('renders logo and navigation links', () => {
     render(<Header />)
 
-    expect(screen.getByText('Malano')).toBeInTheDocument()
+    expect(screen.getByText('Gabi Fleita')).toBeInTheDocument()
     expect(screen.getByText('Home')).toBeInTheDocument()
     expect(screen.getByText('Qué hacemos')).toBeInTheDocument()
     expect(screen.getByText('Experiencia')).toBeInTheDocument()
