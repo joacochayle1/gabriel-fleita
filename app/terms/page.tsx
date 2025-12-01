@@ -188,8 +188,7 @@ export default function TermsPage() {
             </ul>
             <p className="mb-2">Para consultas, podés contactarnos a través de:</p>
             <ul className="list-disc pl-6 space-y-1">
-              <li>Formulario de contacto en el sitio web</li>
-              <li>WhatsApp</li>
+              <li>Calendly</li>
               <li>Instagram</li>
             </ul>
           </section>
