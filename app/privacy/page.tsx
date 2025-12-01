@@ -74,7 +74,7 @@ export default function PrivacyPage() {
             <h2 className="text-2xl font-semibold text-black mt-8 mb-4">5. Contacto</h2>
             <p>
               Para ejercer tus derechos o realizar consultas sobre esta política, puedes
-              contactarnos a través del formulario de contacto o WhatsApp.
+              contactarnos a través de Instagram.
             </p>
           </section>
 

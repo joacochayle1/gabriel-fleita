@@ -72,10 +72,7 @@ export default function RefundsPage() {
 
           <section>
             <h2 className="text-2xl font-semibold text-black mt-8 mb-4">5. Contacto</h2>
-            <p>
-              Para consultas sobre reembolsos, puedes contactarnos a través del formulario de
-              contacto o WhatsApp.
-            </p>
+            <p>Para consultas sobre reembolsos, puedes contactarnos a través de instagram.</p>
           </section>
 
           <section>
