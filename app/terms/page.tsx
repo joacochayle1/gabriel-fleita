@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Términos y Condiciones | Malano',
-  description: 'Términos de servicio, privacidad y reembolsos de Malano',
+  title: 'Términos y Condiciones | Santi Malano LLC',
+  description: 'Términos de servicio, privacidad y reembolsos de Santi Malano LLC',
 }
 
 export default function TermsPage() {
@@ -15,14 +15,14 @@ export default function TermsPage() {
             href="/"
             className="text-2xl font-bold text-black hover:opacity-80 transition-opacity"
           >
-            Malano
+            Santi Malano LLC
           </Link>
         </div>
       </header>
 
       <main className="container-custom section-padding max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
-          Términos de Servicio, Privacidad y Reembolsos de Malano
+          Términos de Servicio, Privacidad y Reembolsos de Santi Malano LLC
         </h1>
         <p className="text-lg text-black/60 mb-12">
           Última actualización:{' '}
@@ -37,7 +37,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-semibold text-black mt-8 mb-4">1. Alcance y aceptación</h2>
             <p>
-              Al contratar el servicio de Malano (prestado por Gabriel Fleita y sus socios), aceptás
+              Al contratar el servicio de Santi Malano LLC (prestado por Gabriel Fleita y sus socios), aceptás
               estos Términos, nuestra Política de Privacidad y la Política de Reembolsos. El uso de
               nuestros servicios implica la aceptación plena de estos términos.
             </p>
@@ -136,7 +136,7 @@ export default function TermsPage() {
                 necesidades de importación.
               </li>
               <li>
-                Malano se compromete a realizar las gestiones con la mayor diligencia, pero no se
+                Santi Malano LLC se compromete a realizar las gestiones con la mayor diligencia, pero no se
                 hace cargo de retrasos por causas ajenas a nuestro control (aduanas, transportistas,
                 proveedores, etc.).
               </li>
@@ -156,7 +156,7 @@ export default function TermsPage() {
               6. Propiedad intelectual
             </h2>
             <p>
-              Toda la información, metodologías, contactos y know-how desarrollado por Malano
+              Toda la información, metodologías, contactos y know-how desarrollado por Santi Malano LLC
               pertenecen a Gabriel Fleita y sus socios. El cliente no podrá utilizar esta
               información para fines distintos a los acordados sin autorización previa.
             </p>
@@ -176,7 +176,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-semibold text-black mt-8 mb-4">8. Contacto</h2>
             <p className="mb-3">
-              <strong>Gabriel Fleita - Malano</strong>
+              <strong>Gabriel Fleita - Santi Malano LLC</strong>
             </p>
             <p className="mb-2">Oficinas operativas en:</p>
             <ul className="list-disc pl-6 space-y-1 mb-4">
