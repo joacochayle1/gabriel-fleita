@@ -37,9 +37,10 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-semibold text-black mt-8 mb-4">1. Alcance y aceptación</h2>
             <p>
-              Al contratar el servicio de Santi Malano LLC (prestado por Gabriel Fleita y sus socios), aceptás
-              estos Términos, nuestra Política de Privacidad y la Política de Reembolsos. El uso de
-              nuestros servicios implica la aceptación plena de estos términos.
+              Al contratar el servicio de Santi Malano LLC (prestado por Gabriel Fleita y sus
+              socios), aceptás estos Términos, nuestra Política de Privacidad y la Política de
+              Reembolsos. El uso de nuestros servicios implica la aceptación plena de estos
+              términos.
             </p>
           </section>
 
@@ -122,7 +123,7 @@ export default function TermsPage() {
             </p>
             <p>
               <strong>Derechos:</strong> Acceso, rectificación, supresión, limitación y portabilidad
-              escribiendo a través del formulario de contacto o WhatsApp.
+              escribiendo a través de Calendly o Instagram.
             </p>
           </section>
 
@@ -136,9 +137,9 @@ export default function TermsPage() {
                 necesidades de importación.
               </li>
               <li>
-                Santi Malano LLC se compromete a realizar las gestiones con la mayor diligencia, pero no se
-                hace cargo de retrasos por causas ajenas a nuestro control (aduanas, transportistas,
-                proveedores, etc.).
+                Santi Malano LLC se compromete a realizar las gestiones con la mayor diligencia,
+                pero no se hace cargo de retrasos por causas ajenas a nuestro control (aduanas,
+                transportistas, proveedores, etc.).
               </li>
               <li>
                 No nos hacemos responsables de daños indirectos, lucro cesante o pérdidas derivadas
@@ -156,8 +157,8 @@ export default function TermsPage() {
               6. Propiedad intelectual
             </h2>
             <p>
-              Toda la información, metodologías, contactos y know-how desarrollado por Santi Malano LLC
-              pertenecen a Gabriel Fleita y sus socios. El cliente no podrá utilizar esta
+              Toda la información, metodologías, contactos y know-how desarrollado por Santi Malano
+              LLC pertenecen a Gabriel Fleita y sus socios. El cliente no podrá utilizar esta
               información para fines distintos a los acordados sin autorización previa.
             </p>
           </section>
