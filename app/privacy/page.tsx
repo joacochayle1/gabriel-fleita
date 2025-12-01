@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad | Malano',
-  description: 'Política de privacidad y protección de datos personales de Malano',
+  title: 'Política de Privacidad | Santi Malano LLC',
+  description: 'Política de privacidad y protección de datos personales de Santi Malano LLC',
 }
 
 export default function PrivacyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
             href="/"
             className="text-2xl font-bold text-black hover:opacity-80 transition-opacity"
           >
-            Malano
+            Santi Malano LLC
           </Link>
         </div>
       </header>
