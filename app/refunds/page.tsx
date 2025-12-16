@@ -55,7 +55,7 @@ export default function RefundsPage() {
             <h2 className="text-2xl font-semibold text-black mt-8 mb-4">3. Proceso de solicitud</h2>
             <p>Para solicitar un reembolso:</p>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Contacta con nosotros vía WhatsApp o email</li>
+              <li>Contacta con nosotros vía Instagram</li>
               <li>Proporciona los detalles de tu solicitud</li>
               <li>Espera la evaluación (máximo 5 días hábiles)</li>
               <li>Recibe el reembolso en el método de pago original</li>

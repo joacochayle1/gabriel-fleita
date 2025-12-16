@@ -74,7 +74,7 @@ export default function TermsPage() {
               servicio.
             </p>
             <p className="mb-3">
-              <strong>Proceso:</strong> Escribir a través del formulario de contacto o WhatsApp con
+              <strong>Proceso:</strong> Escribir a través de Instagram con
               tu nombre, correo y fecha de pago.
             </p>
             <p>
